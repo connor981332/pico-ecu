@@ -10,9 +10,7 @@ int main() {
     stdio_init_all();
 
     while(1) {
-        sleep_ms(250);
-        puts("Hello world\n");
-        puts("This is the beginning of the ECU program\n");
-        // comment
+        sleep_ms(1000);
+        puts("This is the beginning of the ECU program");
     }
 }
